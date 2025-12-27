@@ -69,7 +69,7 @@ export default function App() {
           ))}
         </main>
 
-        <footer className="pb-20 text-center text-md opacity-60 text-black">
+        <footer className="pb-20 text-center text-lg text-black dark:text-white">
           Afiyet olsun 🍽️
         </footer>
 
