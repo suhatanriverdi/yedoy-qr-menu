@@ -21,9 +21,9 @@ export default function BackToTop() {
       title="Back to top"
       aria-hidden={!visible}
       className={
-        `fixed right-4 bottom-6 z-50 flex items-center justify-center rounded-full p-3 transition-transform duration-200 shadow-lg focus:outline-none focus-visible:ring-4 focus-visible:ring-brand ` +
+        `fixed right-4 bottom-6 z-50 flex items-center justify-center rounded-full p-3 transition-transform duration-200 shadow-[0px_0px_6px_1px_rgba(0,0,0,0.2)] focus:outline-none focus-visible:ring-4 focus-visible:ring-brand ` +
         (visible
-          ? "opacity-100 scale-100 pointer-events-auto bg-white dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100"
+          ? "opacity-100 scale-100 pointer-events-auto bg-white dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100 dark:shadow-[0px_0px_6px_1px_rgba(255,255,255,0.3)]"
           : "opacity-0 scale-75 pointer-events-none bg-white dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100")
       }
     >
