@@ -29,7 +29,7 @@ export default function App() {
                 {category.items.map((item) => (
                   <article
                     key={item.name}
-                    className="overflow-hidden rounded-2xl bg-white dark:bg-neutral-800/50 shadow-[0px_0px_6px_1px_rgba(0,_0,_0,_0.2)]"
+                    className="overflow-hidden rounded-2xl bg-white dark:bg-neutral-800/50 shadow-[0px_0px_6px_1px_rgba(0,0,0,0.2)]"
                     aria-label={item.name}
                   >
                     <img
