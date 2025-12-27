@@ -4,7 +4,7 @@ export type MenuCategory = { category: string; items: Item[] };
 
 export const menu: MenuCategory[] = [
   {
-    category: "Pideler",
+    category: "🥖 Pideler",
     items: [
       {
         name: "Kıymalı",
@@ -105,7 +105,7 @@ export const menu: MenuCategory[] = [
     ],
   },
   {
-    category: "Kebaplar",
+    category: "🥩 Kebaplar",
     items: [
       {
         name: "Adana",
@@ -199,7 +199,7 @@ export const menu: MenuCategory[] = [
     ],
   },
   {
-    category: "Çorbalar",
+    category: "🍲 Çorbalar",
     items: [
       {
         name: "Mercimek",
@@ -220,7 +220,7 @@ export const menu: MenuCategory[] = [
     ],
   },
   {
-    category: "İçecekler",
+    category: "🥤 İçecekler",
     items: [
       {
         name: "Su 0.5lt",
@@ -350,7 +350,7 @@ export const menu: MenuCategory[] = [
     ],
   },
   {
-    category: "Tatlılar",
+    category: "🍰 Tatlılar",
     items: [
       {
         name: "Kadayıf",
@@ -370,7 +370,7 @@ export const menu: MenuCategory[] = [
     ],
   },
   {
-    category: "Lavaş - Pide İç",
+    category: "🫓 Lavaş - Pide İç",
     items: [
       {
         name: "Boş Lavaş",

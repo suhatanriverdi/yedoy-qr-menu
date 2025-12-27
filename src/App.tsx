@@ -14,7 +14,8 @@ export default function App() {
           <h1 className="text-2xl font-extrabold text-brand dark:text-white">
             YEDOY
           </h1>
-          <p className="mt-1 text-sm opacity-70">Geleneksel Lezzetler</p>
+          <p className="text-xl opacity-70">Restorant</p>
+          <p className="mt-4 text-sm opacity-70">Geleneksel Lezzetler</p>
         </header>
 
         {/* Menu */}
