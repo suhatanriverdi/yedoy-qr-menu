@@ -37,7 +37,7 @@ export default function App() {
                       src={`${import.meta.env.BASE_URL}images/${item.image}`}
                       alt={item.name}
                       loading="lazy"
-                      className="aspect-4/3 w-full object-cover"
+                      className="h-full w-full object-cover"
                     />
 
                     <div className="p-4">

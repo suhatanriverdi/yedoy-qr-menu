@@ -98,8 +98,8 @@ export const menu: MenuCategory[] = [
         name: "Kaşarlı Sebzeli",
         image: "pideler_kasarli_sebzeli.webp",
         sizes: [
-          { size: "1 porsiyon", price: 220 },
-          { size: "1.5 porsiyon", price: 330 },
+          { size: "1 porsiyon", price: 260 },
+          { size: "1.5 porsiyon", price: 390 },
         ],
       },
     ],
@@ -243,13 +243,28 @@ export const menu: MenuCategory[] = [
         sizes: [{ size: "1 adet", price: 60 }],
       },
       {
+        name: "Kutu Meyve Suyu",
+        image: "icecekler_kutu_meyve_suyu.webp",
+        sizes: [{ size: "1 adet", price: 80 }],
+      },
+      {
         name: "Kutu Kola",
         image: "icecekler_kutu_kola.webp",
         sizes: [{ size: "1 adet", price: 80 }],
       },
       {
+        name: "Kutu Kola Zero",
+        image: "icecekler_kutu_kola_zero.webp",
+        sizes: [{ size: "1 adet", price: 80 }],
+      },
+      {
         name: "Kutu Pepsi",
         image: "icecekler_kutu_pepsi.webp",
+        sizes: [{ size: "1 adet", price: 80 }],
+      },
+      {
+        name: "Kutu Pepsi Zero",
+        image: "icecekler_kutu_pepsi_zero.webp",
         sizes: [{ size: "1 adet", price: 80 }],
       },
       {
@@ -373,25 +388,13 @@ export const menu: MenuCategory[] = [
     category: "🫓 Lavaş - Pide İç",
     items: [
       {
-        name: "Boş Lavaş",
-        image: "lavas_pide_ic_bos_lavas.webp",
-        sizes: [
-          { size: "1 adet, Hazır", price: 30 },
-          { size: "1 adet, Yedoy", price: 35 },
-        ],
+        name: "Lavaş",
+        image: "lavas_pide_ic_lavas.webp",
+        sizes: [{ size: "1 adet, Hazır", price: 30 }],
       },
       {
-        name: "Hazırlanmış Pide",
-        image: "lavas_pide_ic_hazirlanmis_pide.webp",
-        sizes: [
-          { size: "1 adet", price: 30 },
-          { size: "5 adet", price: 150 },
-          { size: "10 adet", price: 300 },
-        ],
-      },
-      {
-        name: "Hamur İşli",
-        image: "lavas_pide_ic_hamur_isli.webp",
+        name: "Pide Hazırlama",
+        image: "lavas_pide_ic_pide_hazirlama.webp",
         sizes: [
           { size: "1 adet, Hazır", price: 30 },
           { size: "1 adet, Yedoy", price: 35 },
