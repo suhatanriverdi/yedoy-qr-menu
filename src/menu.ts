@@ -305,12 +305,12 @@ export const menu: MenuCategory[] = [
       {
         name: "Fanta 1lt",
         image: "icecekler_fanta_1lt.webp",
-        sizes: [{ size: "1 adet", price: 80 }],
+        sizes: [{ size: "1 adet", price: 100 }],
       },
       {
         name: "Fanta 2.5lt",
         image: "icecekler_fanta_25lt.webp",
-        sizes: [{ size: "1 adet", price: 100 }],
+        sizes: [{ size: "1 adet", price: 120 }],
       },
       {
         name: "Ayran Küçük",
@@ -325,42 +325,42 @@ export const menu: MenuCategory[] = [
       {
         name: "Pepsi 1lt",
         image: "icecekler_pepsi_1lt.webp",
-        sizes: [{ size: "1 adet", price: 80 }],
+        sizes: [{ size: "1 adet", price: 100 }],
       },
       {
         name: "Pepsi 2.5lt",
         image: "icecekler_pepsi_25lt.webp",
-        sizes: [{ size: "1 adet", price: 100 }],
+        sizes: [{ size: "1 adet", price: 120 }],
       },
       {
         name: "Uludağ Gazoz 1lt",
         image: "icecekler_uludag_gazoz_1lt.webp",
-        sizes: [{ size: "1 adet", price: 80 }],
+        sizes: [{ size: "1 adet", price: 100 }],
       },
       {
         name: "Uludağ Gazoz 2.5lt",
         image: "icecekler_uludag_gazoz_25lt.webp",
+        sizes: [{ size: "1 adet", price: 120 }],
+      },
+      {
+        name: "Şalgam 1lt",
+        image: "icecekler_salgam_1lt.webp",
         sizes: [{ size: "1 adet", price: 100 }],
       },
       {
         name: "Ayran 1lt",
         image: "icecekler_ayran_1lt.webp",
-        sizes: [{ size: "1 adet", price: 80 }],
-      },
-      {
-        name: "Şalgam 1lt",
-        image: "icecekler_salgam_1lt.webp",
-        sizes: [{ size: "1 adet", price: 80 }],
+        sizes: [{ size: "1 adet", price: 100 }],
       },
       {
         name: "Şişe Çamlıca Gazoz Portakal",
         image: "icecekler_sise_camlica_gazoz_portakal.webp",
-        sizes: [{ size: "1 adet", price: 50 }],
+        sizes: [{ size: "1 adet", price: 60 }],
       },
       {
         name: "Şişe Uludağ Sade Gazoz",
         image: "icecekler_sise_uludag_sade_gazoz.webp",
-        sizes: [{ size: "1 adet", price: 50 }],
+        sizes: [{ size: "1 adet", price: 60 }],
       },
     ],
   },
