@@ -228,9 +228,14 @@ export const menu: MenuCategory[] = [
         sizes: [{ size: "1 adet", price: 20 }],
       },
       {
+        name: "Su 1.5lt",
+        image: "icecekler_su_15lt.webp",
+        sizes: [{ size: "1 adet", price: 30 }],
+      },
+      {
         name: "Su 5lt",
         image: "icecekler_su_5lt.webp",
-        sizes: [{ size: "1 adet", price: 30 }],
+        sizes: [{ size: "1 adet", price: 40 }],
       },
       {
         name: "Soda",
