@@ -14,7 +14,8 @@ export default function App() {
           <h1 className="text-2xl font-extrabold text-brand dark:text-white">
             YEDOY
           </h1>
-          <p className="mt-1 text-sm opacity-70">Geleneksel Lezzetler</p>
+          <p className="text-xl opacity-70">Restorant</p>
+          <p className="mt-4 text-sm opacity-70">Geleneksel Lezzetler</p>
         </header>
 
         {/* Menu */}
@@ -29,14 +30,14 @@ export default function App() {
                 {category.items.map((item) => (
                   <article
                     key={item.name}
-                    className="overflow-hidden rounded-2xl bg-white dark:bg-neutral-800/50 shadow-[0px_0px_6px_1px_rgba(0,0,0,0.2)]"
+                    className="overflow-hidden rounded-2xl bg-white dark:bg-neutral-800/50 shadow-[0px_0px_6px_1px_rgba(0,0,0,0.2)] dark:shadow-[0px_0px_6px_1px_rgba(255,255,255,0.3)]"
                     aria-label={item.name}
                   >
                     <img
                       src={`${import.meta.env.BASE_URL}images/${item.image}`}
                       alt={item.name}
                       loading="lazy"
-                      className="aspect-4/3 w-full object-cover"
+                      className="h-full w-full object-cover"
                     />
 
                     <div className="p-4">
@@ -69,7 +70,7 @@ export default function App() {
           ))}
         </main>
 
-        <footer className="pb-20 text-center text-md opacity-60 text-black">
+        <footer className="pb-20 text-center text-lg text-black dark:text-white">
           Afiyet olsun 🍽️
         </footer>
 

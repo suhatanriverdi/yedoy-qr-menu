@@ -4,7 +4,7 @@ export type MenuCategory = { category: string; items: Item[] };
 
 export const menu: MenuCategory[] = [
   {
-    category: "Pideler",
+    category: "🥖 Pideler",
     items: [
       {
         name: "Kıymalı",
@@ -98,14 +98,14 @@ export const menu: MenuCategory[] = [
         name: "Kaşarlı Sebzeli",
         image: "pideler_kasarli_sebzeli.webp",
         sizes: [
-          { size: "1 porsiyon", price: 220 },
-          { size: "1.5 porsiyon", price: 330 },
+          { size: "1 porsiyon", price: 260 },
+          { size: "1.5 porsiyon", price: 390 },
         ],
       },
     ],
   },
   {
-    category: "Kebaplar",
+    category: "🥩 Kebaplar",
     items: [
       {
         name: "Adana",
@@ -199,7 +199,7 @@ export const menu: MenuCategory[] = [
     ],
   },
   {
-    category: "Çorbalar",
+    category: "🍲 Çorbalar",
     items: [
       {
         name: "Mercimek",
@@ -220,7 +220,7 @@ export const menu: MenuCategory[] = [
     ],
   },
   {
-    category: "İçecekler",
+    category: "🥤 İçecekler",
     items: [
       {
         name: "Su 0.5lt",
@@ -228,9 +228,14 @@ export const menu: MenuCategory[] = [
         sizes: [{ size: "1 adet", price: 20 }],
       },
       {
+        name: "Su 1.5lt",
+        image: "icecekler_su_15lt.webp",
+        sizes: [{ size: "1 adet", price: 30 }],
+      },
+      {
         name: "Su 5lt",
         image: "icecekler_su_5lt.webp",
-        sizes: [{ size: "1 adet", price: 30 }],
+        sizes: [{ size: "1 adet", price: 40 }],
       },
       {
         name: "Soda",
@@ -243,13 +248,28 @@ export const menu: MenuCategory[] = [
         sizes: [{ size: "1 adet", price: 60 }],
       },
       {
+        name: "Kutu Meyve Suyu",
+        image: "icecekler_kutu_meyve_suyu.webp",
+        sizes: [{ size: "1 adet", price: 80 }],
+      },
+      {
         name: "Kutu Kola",
         image: "icecekler_kutu_kola.webp",
         sizes: [{ size: "1 adet", price: 80 }],
       },
       {
+        name: "Kutu Kola Zero",
+        image: "icecekler_kutu_kola_zero.webp",
+        sizes: [{ size: "1 adet", price: 80 }],
+      },
+      {
         name: "Kutu Pepsi",
         image: "icecekler_kutu_pepsi.webp",
+        sizes: [{ size: "1 adet", price: 80 }],
+      },
+      {
+        name: "Kutu Pepsi Zero",
+        image: "icecekler_kutu_pepsi_zero.webp",
         sizes: [{ size: "1 adet", price: 80 }],
       },
       {
@@ -290,12 +310,12 @@ export const menu: MenuCategory[] = [
       {
         name: "Fanta 1lt",
         image: "icecekler_fanta_1lt.webp",
-        sizes: [{ size: "1 adet", price: 80 }],
+        sizes: [{ size: "1 adet", price: 100 }],
       },
       {
         name: "Fanta 2.5lt",
         image: "icecekler_fanta_25lt.webp",
-        sizes: [{ size: "1 adet", price: 100 }],
+        sizes: [{ size: "1 adet", price: 120 }],
       },
       {
         name: "Ayran Küçük",
@@ -310,47 +330,47 @@ export const menu: MenuCategory[] = [
       {
         name: "Pepsi 1lt",
         image: "icecekler_pepsi_1lt.webp",
-        sizes: [{ size: "1 adet", price: 80 }],
+        sizes: [{ size: "1 adet", price: 100 }],
       },
       {
         name: "Pepsi 2.5lt",
         image: "icecekler_pepsi_25lt.webp",
-        sizes: [{ size: "1 adet", price: 100 }],
+        sizes: [{ size: "1 adet", price: 120 }],
       },
       {
         name: "Uludağ Gazoz 1lt",
         image: "icecekler_uludag_gazoz_1lt.webp",
-        sizes: [{ size: "1 adet", price: 80 }],
+        sizes: [{ size: "1 adet", price: 100 }],
       },
       {
         name: "Uludağ Gazoz 2.5lt",
         image: "icecekler_uludag_gazoz_25lt.webp",
+        sizes: [{ size: "1 adet", price: 120 }],
+      },
+      {
+        name: "Şalgam 1lt",
+        image: "icecekler_salgam_1lt.webp",
         sizes: [{ size: "1 adet", price: 100 }],
       },
       {
         name: "Ayran 1lt",
         image: "icecekler_ayran_1lt.webp",
-        sizes: [{ size: "1 adet", price: 80 }],
-      },
-      {
-        name: "Şalgam 1lt",
-        image: "icecekler_salgam_1lt.webp",
-        sizes: [{ size: "1 adet", price: 80 }],
+        sizes: [{ size: "1 adet", price: 100 }],
       },
       {
         name: "Şişe Çamlıca Gazoz Portakal",
         image: "icecekler_sise_camlica_gazoz_portakal.webp",
-        sizes: [{ size: "1 adet", price: 50 }],
+        sizes: [{ size: "1 adet", price: 60 }],
       },
       {
         name: "Şişe Uludağ Sade Gazoz",
         image: "icecekler_sise_uludag_sade_gazoz.webp",
-        sizes: [{ size: "1 adet", price: 50 }],
+        sizes: [{ size: "1 adet", price: 60 }],
       },
     ],
   },
   {
-    category: "Tatlılar",
+    category: "🍰 Tatlılar",
     items: [
       {
         name: "Kadayıf",
@@ -370,28 +390,16 @@ export const menu: MenuCategory[] = [
     ],
   },
   {
-    category: "Lavaş - Pide İç",
+    category: "🫓 Lavaş - Pide İç",
     items: [
       {
-        name: "Boş Lavaş",
-        image: "lavas_pide_ic_bos_lavas.webp",
-        sizes: [
-          { size: "1 adet, Hazır", price: 30 },
-          { size: "1 adet, Yedoy", price: 35 },
-        ],
+        name: "Lavaş",
+        image: "lavas_pide_ic_lavas.webp",
+        sizes: [{ size: "1 adet, Hazır", price: 30 }],
       },
       {
-        name: "Hazırlanmış Pide",
-        image: "lavas_pide_ic_hazirlanmis_pide.webp",
-        sizes: [
-          { size: "1 adet", price: 30 },
-          { size: "5 adet", price: 150 },
-          { size: "10 adet", price: 300 },
-        ],
-      },
-      {
-        name: "Hamur İşli",
-        image: "lavas_pide_ic_hamur_isli.webp",
+        name: "Pide Hazırlama",
+        image: "lavas_pide_ic_pide_hazirlama.webp",
         sizes: [
           { size: "1 adet, Hazır", price: 30 },
           { size: "1 adet, Yedoy", price: 35 },
